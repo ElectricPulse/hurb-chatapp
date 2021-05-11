@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.center_page {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  width: 720px;
+  transform: translateX(-50%);
+}
+
+/*                     */
+/* User message_input handling */
+/*                     */
+
+.form_buttons,
+.message_input {
+  display: inline-block;
+
+  background-color: rgb(219, 219, 219);
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 0.3rem;
+  min-height: 2.3rem;
+}
+
+.form_buttons {
+  float: right;
+  margin-left: 12px;
+  padding: 8px;
+  width: 13%;
+}
+
+/*          */
+/* Messages */
+/*          */
+
+.message_input {
+  width: 70%;
+  outline: none;
+  resize: none;
+}
+
+.message_title {
+  color: rgb(167, 167, 167);
+  font-weight: 800;
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+}
+
+.messages_container {
+  margin: 5% 0;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+
+.message_box {
+  max-width: 40%;
+  min-width: 15%;
+  text-overflow: ellipsis;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: rgb(21, 111, 255);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.message_content {
+  float: left;
+  display: block;
+}
+
+.message_date {
+  clear: both;
+  display: block;
+  margin: 0.5rem 1px 1px 0;
+  font-size: 0.75rem;
+  float: right;
+}
+
+a {
+  color: white;
+  font-style: oblique;
+}
+
+.sidebar {
+  margin-top: 1rem;
+  background-color: rgb(230, 231, 251);
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+.users {
+  list-style: none;
+}
+
+.room_title {
+  color: rgb(65, 168, 251);
+  font-weight: 900;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+h3 {
+  color: rgb(66, 66, 66);
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.6rem;
+}
+
+.users li {
+  font-size: 1.1rem;
+  color: grey;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+}
